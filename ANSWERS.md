@@ -1,0 +1,7 @@
+1. PropTypes is pre-emptive debugging used to check whether or not the types of data in your component's state properties are the types you intend, ie you are not attempting to pass a number to a property designed to hold a string, or an array to one meant for a boolean.
+
+2. Life-cycle events trigger based on conditions that occur relative to the mounting of a component. For instance, a componentWillMount function occurs right before the component is rendered and allows it to make changes to accomodate itself, and componentWillUnmount allows a component that's no longer being used to clean up after itself when it's done rather than leaving leftover code still running.
+
+3. Higher order components are components that takes other components in as parameters and produces new components whose specifics are contingent on the components it recieved.
+
+4. You can style in vanilla CSS and import within the component itself, which is simple and unlikely to create dependency issues. You can also use a preprocessor, which confers all the standard advantages of preprocessing, automation/nesting/etc. You can also use styled components, which allows you to significantly pare down your file structure and write your CSS within the component's javascript itself.
