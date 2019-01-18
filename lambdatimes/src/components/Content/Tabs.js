@@ -13,8 +13,8 @@ const Tabs = props => {
           return(
             <Tab
               tab={tab}
-              selectTabHandler={tab.selectTabHandler}
-              selectedTab={tab.selectedTab}
+              selectTabHandler={props.selectTabHandler}
+              selectedTab={props.selectedTab}
             />
           )
         })}    
